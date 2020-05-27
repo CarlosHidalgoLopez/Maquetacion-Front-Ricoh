@@ -1,0 +1,217 @@
+
+
+
+@media only screen and (max-width : 1024px) {
+
+  .grid-items {
+    grid-template-columns: repeat(3,1fr);
+
+  }
+
+  .item.item-50-first{
+    grid-column: 1/-1;
+  }
+
+  .item.bmw-logo{
+      grid-column: 1/2;
+  }
+
+  .item.item-image.first {
+    grid-column: 2/3;
+  }
+
+  .item.double {
+      grid-column: 3/4;
+      grid-row: 2/3;
+      height: 275px;
+  }
+
+  .item.audi-logo {
+      grid-column: 1/2;
+
+  }
+
+  .item.item-news {
+      grid-column: 2/3;
+  }
+
+  .item.item-news.two {
+      grid-column: 3/4;
+  }
+
+  .item.item-502 {
+      grid-column: 1/3;
+  }
+
+  .item.item-image.two{
+      grid-column: 3/4;
+  }
+
+  .content-elements .h3-sub{
+    font-size: 16px;
+  }
+
+  .content-elements h3 {
+      font-size: 13px;
+      left: 1%;
+
+  }
+
+
+}
+
+
+@media only screen and (min-width : 1025px) and (max-width : 1300px) {
+
+    .content-elements img {
+        height: 278px;
+    }
+
+ }
+
+@media only screen and (max-width : 1200px) {
+
+    ul.navigation{
+      display: none;
+    }
+
+
+  }
+
+@media only screen and (min-width : 1200px) {
+
+   .hamburguer{
+     display: none;
+   }
+
+
+
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  .content-elements img {
+      height: 275px;
+  }
+
+  .content-elements h3 {
+      left: 3%;
+      font-size: 15px;
+  }
+
+
+ }
+
+
+@media only screen and (max-width : 768px) {
+
+
+  .grid-items {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .item.bmw-logo {
+      grid-column: 1/-1;
+  }
+
+  .item.item-image.first {
+    grid-column: 1/-1;
+  }
+
+  .container-btn-open {
+      justify-content: flex-end !important;
+  }
+
+
+  .item.audi-logo {
+      grid-column: 1/-1;
+  }
+
+
+  .item.double {
+      grid-column: 1/-1;
+  }
+
+  .item.double img{
+    object-fit: cover;
+  }
+
+  .item.item-502 {
+      grid-column: 1/-1;
+  }
+
+
+  .item.item-news {
+      grid-column: 1/2;
+  }
+
+  .item.item-news.two {
+      grid-column: 2/3;
+  }
+
+
+  .item.item-image.two {
+      grid-column: 1/-1;
+  }
+
+
+  .item.item-50-first{
+      display: inherit;
+  }
+
+  .container-btn-open {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center !important;
+  }
+
+  .item.item-50-first .left-item{
+      width: 100%;
+  }
+
+
+  .item-square{
+      width: auto;
+  }
+
+  .right-item {
+    display: flex;
+    justify-content: center;
+    width: auto !important;
+}
+
+
+  .content-elements h3 {
+      left: 15%;
+      font-size: 19px;
+  }
+
+
+  .content-elements .h3-sub {
+      left: 7%;
+  }
+
+
+}
+
+
+@media only screen and (max-width : 600px) {
+
+    .content-elements h3 {
+          left: 7%;
+          font-size: 19px;
+      }
+
+}
+
+
+@media only screen and (max-width : 480px) {
+
+  .item.audi-logo, .item.item-news, .item.item-news.two  {
+    grid-column: 1/-1;
+  }
+
+
+
+}
